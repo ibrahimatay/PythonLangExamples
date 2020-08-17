@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 welcomeMessage = "Welcome to my python learn"
 print(welcomeMessage) # Welcome to my python learn
 
