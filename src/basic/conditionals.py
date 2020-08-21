@@ -7,4 +7,4 @@ y = 3
 if x < y:
     print('x ({}) is less than y ({})'.format(x, y))
 else:
-    print('y ({}) is not less than b ({})'.format(x, y))
+    print('y ({}) is not less than x ({})'.format(x, y))
