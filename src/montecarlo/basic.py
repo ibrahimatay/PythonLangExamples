@@ -19,5 +19,5 @@ pi = 4.0 * n_circle / n_square
 
 
 print("approximate value of pi : {0}".format(pi))
-print("exact value of pi: {0}", math.pi)
+print("exact value of pi: {0}".format(math.pi))
 
