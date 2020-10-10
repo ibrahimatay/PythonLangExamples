@@ -4,3 +4,4 @@ pandas
 xlrd
 seaborn
 scipy
+enum34
