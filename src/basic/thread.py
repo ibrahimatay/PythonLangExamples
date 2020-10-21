@@ -1,6 +1,3 @@
-# https://redislabs.com/blog/async-await-programming-basics-python-examples/
-# https://gist.github.com/miguelgrinberg/f15bc03471f610cfebeba62438435508
-
 import threading
 
 def worker(name,volume):
