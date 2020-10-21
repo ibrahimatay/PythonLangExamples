@@ -9,10 +9,5 @@ def worker(name,volume):
 
 threads = []
 for i in range(100):
-    t1 = threading.Thread(target=worker, args=('t1',i,))
-    threads.append(t1)
-    t1.start()
-
-    t2 = threading.Thread(target=worker, args=('t2',i,))
-    threads.append(t2)
-    t2.start()
+    threading.Thread(target=worker, args=('t1',i,)).start()
+    threading.Thread(target=worker, args=('t2',i,)).start()
