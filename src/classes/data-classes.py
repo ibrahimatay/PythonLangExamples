@@ -23,8 +23,8 @@ from typing import List
 @dataclass(init=True, repr=True, eq=True)
 class InventoryItem:
     """Class for keeping track of an item in inventory."""
-    name: str
-    unit_price: float
+    name: str =''
+    unit_price: float = 0.0
     quantity_on_hand: int = 0
 
     def get_total_cost(self) -> float:
