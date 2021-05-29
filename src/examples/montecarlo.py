@@ -4,7 +4,7 @@ import math
 n_circle = 0
 n_square = 0
 
-for i in range(1_000_000):
+for i in range(1000000):
     x = random.random()
     y = random.random()
 
