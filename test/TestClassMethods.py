@@ -4,7 +4,6 @@
 import unittest
 
 class TestClassMethods(unittest.TestCase):
-  
     def test_upper(self):
         name = 'foo'
         nameToUpper = name.upper()
