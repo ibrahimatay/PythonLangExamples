@@ -4,9 +4,6 @@
 import unittest
 
 class TestClassMethods(unittest.TestCase):
-
-    def setUp(self): 
-        pass
   
     def test_upper(self):
         self.assertEqual('foo'.upper(), 'FOO')
