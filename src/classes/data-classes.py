@@ -32,7 +32,7 @@ class InventoryItem:
 
 @dataclass
 class Inventories:
-    items: List[InventoryItem]
+    items = List[InventoryItem]
 
 item01 = InventoryItem("Book", 12.5, 5)
 item02 = InventoryItem("Notebook", 7.6, 2)
